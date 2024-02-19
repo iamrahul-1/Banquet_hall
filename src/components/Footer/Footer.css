@@ -1,0 +1,22 @@
+.footer {
+    background-color: #B85042;
+    text-align: center;
+    height: 15vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.copy{
+    margin: 2.5rem 0 0.5rem 0;
+}
+
+.phone {
+    margin-top: 5%;
+}

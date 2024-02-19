@@ -1,0 +1,12 @@
+.heading {
+    text-align: center;
+    margin:25px 0;
+    font-size: 2.8rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}

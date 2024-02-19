@@ -1,0 +1,78 @@
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    row-gap: 5px;
+    /* background-color: #d6b13a; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* border: 1px solid black; */
+    height: 90px; 
+    width: 100%;  
+    margin:0 auto;
+    top: 2px;
+    position: fixed;
+    z-index: 2;
+}
+
+.Logo {
+    height: 90px;   
+    width: auto;
+    margin-left: 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.bookbtn{
+    background-color: #7D0121;
+    color: #fdfdfd;
+}
+
+
+li{
+    list-style: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 1.1rem;
+    border-radius: 5px;   
+    transition: transform 180ms;
+}
+
+li:hover {
+    background-color: #9e1d37;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 10px 5px;
+    
+}
+
+li:active {
+    transform: scale(0.85);
+}
+
+.login {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.login:hover {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
